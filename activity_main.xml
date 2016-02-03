@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/redbox1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"  >
+
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:background="#f2f2f2"
+            android:hint="frst nmbr"
+
+            >
+
+        </EditText>
+        <EditText
+            android:id="@+id/text2"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:background="#808080"
+            android:hint="scnd nmbr"
+
+             >
+
+        </EditText>
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#ffffb3"
+
+
+        >
+
+    </EditText>
+
+
+       <LinearLayout
+           android:id="@+id/secondbox"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sum"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+
+            android:text="sum"/>
+    </LinearLayout>
+</LinearLayout>
