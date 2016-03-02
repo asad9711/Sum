@@ -9,6 +9,7 @@
 
         <EditText
             android:id="@+id/text1"
+            android:inputType="number"
             android:layout_width="400dp"
             android:layout_height="50dp"
             android:background="#f2f2f2"
@@ -19,6 +20,7 @@
         </EditText>
         <EditText
             android:id="@+id/text2"
+            android:inputType="number"
             android:layout_width="400dp"
             android:layout_height="50dp"
             android:background="#808080"
@@ -51,3 +53,6 @@
             android:text="sum"/>
     </LinearLayout>
 </LinearLayout>
+
+
+
